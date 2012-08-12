@@ -4,9 +4,9 @@ require File.expand_path('../lib/csv_export/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Sergey Pchelincev"]
   gem.email         = ["jalkoby91@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Painless csv export in Ruby on Rails}
+  gem.summary       = %q{}
+  gem.homepage      = "https://github.com/jalkoby/csv_export"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
